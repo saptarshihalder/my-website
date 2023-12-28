@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f8f8;
+  background-color: #05040c; /* Dark background */
+  color: #fff; /* Light text color */
 }
 
 .container {
@@ -11,15 +12,15 @@ body {
   margin: 0 auto;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+/* Interstellar Header Styles */
+.interstellar-header {
+  background: linear-gradient(135deg, #1d1b33, #05040c); /* Gradient background */
   padding: 1em 0;
 }
 
 header h1 {
   margin: 0;
+  font-size: 2em;
 }
 
 header p {
@@ -50,13 +51,15 @@ nav a:hover {
   color: #ffd700;
 }
 
-section {
+/* Interstellar Section Styles */
+.interstellar-section {
+  background: linear-gradient(135deg, #07061c, #1d1b33); /* Gradient background */
   padding: 4em 0;
+  text-align: center;
 }
 
 section h2 {
-  color: #333;
-  text-align: center;
+  color: #ffd700; /* Yellow text color */
 }
 
 /* About Me Section Styles */
