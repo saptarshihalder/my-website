@@ -21,6 +21,11 @@ body {
   align-items: center;
 }
 
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
 header h1 {
   margin: 0;
   font-size: 2em;
@@ -55,7 +60,7 @@ nav a:hover {
 }
 
 /* Move the links to the right */
-nav ul {
+nav {
   margin-left: auto;
 }
 
