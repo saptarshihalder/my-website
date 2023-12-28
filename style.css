@@ -1,9 +1,9 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
 }
 
 .container {
@@ -47,25 +47,35 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd700; /* Change the color on hover as desired */
+  color: #ffd700;
 }
 
 section {
-  padding: 2em 0;
+  padding: 4em 0;
 }
 
 section h2 {
   color: #333;
+  text-align: center;
 }
 
-/* Circular background styles */
+/* About Me Section Styles */
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
 .profile-container {
-  position: relative;
+  flex: 1;
 }
 
 .profile-picture {
-  width: 200px; /* Adjust the size as needed */
-  height: 200px; /* Adjust the size as needed */
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
